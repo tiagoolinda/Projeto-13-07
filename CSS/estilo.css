@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+    #meu_menu /* abrindo id do menu */
+    { text-align: right;
+        /*padding margem interna*/
+        padding-right: 20px;
+
+        /* colocando borda interior */
+        border-bottom: solid;
+        /* tamanho da fonte do menu */
+        font-size: 25px;
+        font-family:'roboto+Condensed',sans-serif;}
+
+        /* chamando a classe mãe */
+        #meu_menu a{
+            text-decoration: none; 
+            color: #e91010;  
+            } 
+         
+            /* Colocando efeito de sobre no menu */
+        #meu_menu a:hover{
+        color: #5468e7;
+        background-color: #9fde4d;
+        transition: 1s;
+        opacity: 0,7;
+        }
+        /* Trabalhando com */
+
+        .titulo{
+            text-align: center;
+            background-color: #5090eb;
+            border-style: double;
+            border-radius:15px;
+            border-width: 7px;            
+        }
+
+        /* Trabalhando com div da imagem */
+
+        #fundo{
+            display:flex;
+            justify-content: center;
+            
+        }
+
+        img{
+            width: 35%;
+        }
+
+        /* Trabalhando com a Div principal */
+        .master{
+            display:flex;
+        }
+        
+        .col_esquerda{
+            margin-right: 50px;
+            margin-left: 50px;       
+            text-align: justify;
+        }
+
+        .col_direita{
+            margin-right: 50px;
+            text-align: justify;
+            }
+
+        .titulo_col{
+            text-align: center;
+            background-color: #c4c40b;
+        }
+        /* fechando o id do menu */
+    
+        
+    
